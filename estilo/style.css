@@ -17,11 +17,11 @@
 }
 
 body{
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(to bottom ,var(--azul) ,var(--lilaz));
+    background-size: cover;
 }
 header{
-    
     margin: auto;
 }
 
@@ -33,37 +33,55 @@ header > h1{
     color: white;
     margin-top: 7px;
     text-shadow: 1px 2px 4px black;
-}
-
-section{
-    width: 350px;
-    height: 450px;
-    background-color: rgba(255, 255, 255, 0.418);
-    margin: auto;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-top: 50px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.39);
-    font-family: "Special Gothic", sans-serif;
+    margin: 30px;
 }
 
 div#perfil{
-    height: 50%;
-    background-color: black;
     background-image: url(../imagens/perfil.JPG);
+    width: 250px;
+    height: 250px;
     background-size: cover;
-}
-
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
+    margin-top: 30px;
+    
+} 
 div#sobre{
+    width: 70vw;
+    margin: auto;
+    padding: 10px;
+    color: white;
     text-align: justify;
-    margin: 15px;
     
 }
-
-div#sobre  h2{
-    margin-bottom: 10px;
+div#sobre h2{
+    margin-top: 30px;
+    margin-bottom:15px ;
+    font-size: 1.8em;
+    text-align: left;
+}
+div#sobre p{
+    font-size: 1.2em;
 }
 
-div#sobre  p{
-    font-size: 1.1em;
+div#link a{
+    width: 320px;
+    height: 65px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--azul);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 65px;
+    font-size: 1.2em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
 }
+div#link a:hover{
+    background-color: var(--lilazescuro);
+}
+

@@ -84,4 +84,31 @@ div#link a{
 div#link a:hover{
     background-color: var(--lilazescuro);
 }
+#trabalhos{
+    margin-top: 50px;
+    
+}
+#trabalhos h2{
+    color:  white;
+    text-align: center;
+    margin-bottom: 50px;
 
+}
+iframe.frame{
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+#img3{
+    float: left;
+}
+#img4{
+    float: right;
+}

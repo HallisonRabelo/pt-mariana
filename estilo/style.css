@@ -18,7 +18,7 @@
 
 body{
     height: auto;
-    background-image: linear-gradient(to bottom ,var(--azul) ,var(--lilaz));
+    background-image: linear-gradient(to right ,var(--azul) ,var(--lilaz));
     background-size: cover;
 }
 header{
@@ -99,16 +99,39 @@ iframe.frame{
     width: 350px;
     height: 350px;
     margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+iframe.frame:hover{
+    border-radius: 5px;
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    
+    
 }
 #img1{
     float: left;
+    clear: both;
 }
 #img2{
     float: right;
+    clear: both;
 }
 #img3{
     float: left;
+    clear: both;
 }
 #img4{
     float: right;
+    clear: both;
 }
+#habilidades{
+    margin-top: 50px;
+}
+#habilidades h2{
+    color:  white;
+    text-align: center;
+    margin-bottom: 50px;
+}   

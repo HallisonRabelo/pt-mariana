@@ -31,9 +31,8 @@ header > h1{
     font-family: 'tangerine';
     font-size: 50px;
     color: white;
-    margin-top: 7px;
     text-shadow: 1px 2px 4px black;
-    margin: 30px;
+    margin: 15px;
 }
 
 div#perfil{
@@ -44,11 +43,11 @@ div#perfil{
     border-radius: 50%;
     margin: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
-    margin-top: 30px;
+    margin-top: 15px;
     
 } 
 div#sobre{
-    width: 70vw;
+    width: 75vw;
     margin: auto;
     padding: 10px;
     color: white;
@@ -84,6 +83,50 @@ div#link a{
 div#link a:hover{
     background-color: var(--lilazescuro);
 }
+
+#habilidades{
+    width: 96vw;
+    margin: 80px 0px;
+    text-align: center;
+}
+#habilidades h2{
+    color:  white;
+    text-align: center;
+    margin-bottom: 50px;
+}  
+#habilidades p{
+    color: white;
+    margin: 30px;
+    font-size: 1.2em
+}
+.bloco-hab{
+    display: inline-block;
+    margin: 15px;
+}
+.ferramentas{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.bloco-hab p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.2em;
+    color: white;
+}
+div#hab1{
+    background-image: url(../imagens/adobe.png);
+}
+div#hab2{
+    background-image: url(../imagens/canva.png);
+}
+div#hab3{
+    background-image: url(../imagens/corel.png);
+}
 #trabalhos{
     margin-top: 50px;
     
@@ -108,8 +151,6 @@ iframe.frame:hover{
     height: 450px;
     margin: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
-    
-    
 }
 #img1{
     float: left;
@@ -126,43 +167,4 @@ iframe.frame:hover{
 #img4{
     float: right;
     clear: both;
-}
-#habilidades{
-    width: 96vw;
-    margin-top: 50px;
-    margin: auto;
-    text-align: center;
-}
-#habilidades h2{
-    color:  white;
-    text-align: center;
-    margin-bottom: 50px;
-}  
-.bloco-hab{
-    display: inline-block;
-    margin: 15px;
-}
-.ferramentas{
-    width: 120px;
-    height: 120px;
-    margin: auto;
-    display: block;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;    
-}
-.bloco-hab p{
-    text-align: center;
-    margin-top: 8px;
-    font-size: 1em;
-    color: white;
-}
-div#hab1{
-    background-image: url(../imagens/adobe.png);
-}
-div#hab2{
-    background-image: url(../imagens/canva.png);
-}
-div#hab3{
-    background-image: url(../imagens/corel.png);
 }

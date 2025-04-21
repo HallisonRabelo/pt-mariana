@@ -128,10 +128,41 @@ iframe.frame:hover{
     clear: both;
 }
 #habilidades{
+    width: 96vw;
     margin-top: 50px;
+    margin: auto;
+    text-align: center;
 }
 #habilidades h2{
     color:  white;
     text-align: center;
     margin-bottom: 50px;
-}   
+}  
+.bloco-hab{
+    display: inline-block;
+    margin: 15px;
+}
+.ferramentas{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.bloco-hab p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1em;
+    color: white;
+}
+div#hab1{
+    background-image: url(../imagens/adobe.png);
+}
+div#hab2{
+    background-image: url(../imagens/canva.png);
+}
+div#hab3{
+    background-image: url(../imagens/corel.png);
+}

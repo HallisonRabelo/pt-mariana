@@ -20,6 +20,7 @@ body{
     height: auto;
     background-image: linear-gradient(to right ,var(--azul) ,var(--lilaz));
     background-size: cover;
+    overflow-x: hidden;
 }
 header{
     margin: auto;
@@ -129,42 +130,32 @@ div#hab3{
 }
 #trabalhos{
     margin-top: 50px;
-    
 }
 #trabalhos h2{
     color:  white;
     text-align: center;
     margin-bottom: 50px;
-
 }
-iframe.frame{
-    border-radius: 5px;
-    width: 350px;
-    height: 350px;
-    margin: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
-    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+.imagens{
+    width: 80vw;
+    height: auto;
+    margin: 15px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 7px;
 }
-iframe.frame:hover{
-    border-radius: 5px;
-    width: 450px;
-    height: 450px;
-    margin: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+#galeria{
+    text-align: center;
 }
 #img1{
-    float: left;
-    clear: both;
+    background-image: url(../imagens/arte3.jpg);
 }
 #img2{
-    float: right;
-    clear: both;
+    height: 600px;
+    background-image: url(../imagens/arte1.jpg);
 }
 #img3{
-    float: left;
-    clear: both;
-}
-#img4{
-    float: right;
-    clear: both;
+    background-image: url(../imagens/art2.jpg);   
 }

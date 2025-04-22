@@ -158,4 +158,88 @@ div#hab3{
 }
 #img3{
     background-image: url(../imagens/art2.jpg);   
+    margin-bottom: 50px;
+}
+#contatos h2{
+    color:  white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#instagram{
+    width: 100vw;
+    height: 300px;
+    white-space: nowrap;
+}
+#imginstagram{
+    background-image: url(../imagens/instagram.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#linkinstagram{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+}
+#email{
+    width: 100vw;
+    height: 30px;
+    white-space: nowrap;
+}
+#imgemail{
+    background-image: url(../imagens/email.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#linkemail{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#linkedin{
+    background-image: url(../imagens/linkedin.png);
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 20px;
+}
+#email{
+    background-image: url(../imagens/email.png);
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 20px;
 }

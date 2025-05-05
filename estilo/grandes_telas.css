@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+    }
+    section#sobre-mim{
+        width: 90%;
+        height: 500px;
+    }
+    #perfil{
+        float: left;
+        width: 40%;
+        display:flex ;
+    }
+    #sobre{
+        float: right;
+        width: 40%;
+    }
+}
